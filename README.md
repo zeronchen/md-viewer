@@ -54,7 +54,7 @@ Mermaid 在本机完成渲染。其余联网图表受“联网查询”设置控
 ## 安装与更新
 
 1. 打开 [Releases](https://github.com/zeronchen/md-viewer/releases/latest)
-2. 下载 `MD-Viewer-Setup-1.6.0.exe`
+2. 下载 `MD-Viewer-Setup-1.6.1.exe`
 3. 按安装向导完成安装
 
 当前发行渠道只提供 Windows 安装版。安装后可在系统“打开方式”中使用 MD Viewer 打开 `.md`、`.markdown`、`.mdown` 与 `.mkd` 文件。

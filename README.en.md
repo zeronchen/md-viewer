@@ -54,7 +54,7 @@ Mermaid is rendered locally. Other diagram types are controlled by the Online Lo
 ## Install and update
 
 1. Open the [latest release](https://github.com/zeronchen/md-viewer/releases/latest)
-2. Download `MD-Viewer-Setup-1.6.0.exe`
+2. Download `MD-Viewer-Setup-1.6.1.exe`
 3. Follow the installer
 
 The current release channel provides the Windows installer only. After installation, MD Viewer is available in Open with for `.md`, `.markdown`, `.mdown`, and `.mkd` files.
