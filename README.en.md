@@ -28,6 +28,7 @@ MD Viewer is built for Windows users who regularly read API documentation, desig
 | Capability | Details |
 |---|---|
 | **Markdown reading** | GFM, footnotes, task lists, KaTeX math, code highlighting, in-document tables of contents, and find-in-page |
+| **Find across files** | `Ctrl+Shift+F` searches every Markdown file in the open folder, grouped by file with line numbers and match context; match case, whole word, and regular expressions are supported, and clicking a result jumps straight to that file with the term highlighted |
 | **Tabbed workspace** | DOM caching reduces repeated rendering; session restore, tab switching, folder-tree following, and `Ctrl+P` quick open are included |
 | **25+ diagram types** | 20 Mermaid types rendered locally, plus PlantUML, D2, Graphviz, Vega-Lite, and WaveDrom |
 | **Stable fullscreen zoom** | The viewer keeps the same SVG while zooming. Mermaid does not re-layout after zoom settles, so text wrapping, node positions, and connections stay fixed |
@@ -82,11 +83,14 @@ The installed edition checks GitHub Releases according to your settings. When an
 |---|---|---|---|
 | `Ctrl + O` | Open file | `Ctrl + Shift + O` | Open folder |
 | `Ctrl + P` | Quick open | `Ctrl + F` | Find in page |
+| `Ctrl + Shift + F` | Find in folder | `F3` / `Shift + F3` | Next / previous match |
 | `Ctrl + Tab` | Next tab | `Ctrl + Shift + Tab` | Previous tab |
 | `Ctrl + W` | Close tab | `Ctrl + B` | Toggle sidebar |
 | `Ctrl + /` | Source mode | `Ctrl + Shift + D` | Toggle light / dark |
 | `Ctrl + Shift + P` | Export PDF | `Ctrl + E` | Export HTML |
 | `Ctrl + Shift + L` | License | `Ctrl + Shift + U` | Check for updates |
+
+> The folder-search panel can also be revealed by scrolling up past the top of the file tree or outline; scroll down with an empty query, or press `Esc`, to close it.
 
 ## Requirements
 
