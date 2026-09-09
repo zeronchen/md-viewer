@@ -6,7 +6,7 @@
 
 **A Windows Markdown reader for local technical documentation**
 
-Long-form reading · Tabbed workspaces · 25+ diagram types · Account licensing · Chinese and English UI
+Long-form reading · Tabbed workspaces · 25+ diagram types · Four poetic themes · Bilingual UI
 
 [![Latest release](https://img.shields.io/github/v/release/zeronchen/md-viewer?style=flat-square&label=version)](https://github.com/zeronchen/md-viewer/releases/latest)
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4?style=flat-square)
@@ -19,7 +19,17 @@ Long-form reading · Tabbed workspaces · 25+ diagram types · Account licensing
 
 ---
 
-![MD Viewer main window](docs/screenshot-main.png)
+**Architecture diagrams deserve a full canvas.** A 30-node flowchart or a 10-table ER model: double-click into the fullscreen canvas — vector zoom, drag pan, one-click re-orientation, crisp at any size.
+
+![Editor vs MD Viewer fullscreen canvas](docs/hero-compare.png)
+
+**Four themes, each with a name.** Pure Snow · Forest Whisper · Warm Amber · Starry Night — diagrams and syntax highlighting re-tune themselves as you switch.
+
+![Four themes](docs/themes-grid.png)
+
+**Press F11, and the world goes quiet.** Zen mode folds everything away: centered measure, everything but the text gently dimmed. It even remembers the line you stopped at — close and reopen, you are back.
+
+![Zen mode](docs/zen-mode.png)
 
 ## What MD Viewer does
 
@@ -54,7 +64,8 @@ MD Viewer is built for Windows users who read API docs, design specs, code analy
 
 **Certificate license (legacy-compatible)**: existing `license.key` files remain valid. You can also tap **"Convert to account license"** in Help → License to migrate your certificate into an account (online, one click), then just sign in anywhere.
 
-> Purchase & provisioning: [TBD: contact / channel]
+> **Launch early-bird: ¥19.9 one-time purchase** (regular ¥69). Buy once, use forever — no subscription.
+> Purchase channel coming soon — watch the [Releases page](https://github.com/zeronchen/md-viewer/releases); inquiries: zeronchen@qq.com
 
 ## Diagram support
 
@@ -72,7 +83,7 @@ Mermaid renders on your machine. Online diagrams are gated by the "online diagra
 ## Install & update
 
 1. Open [Releases](https://github.com/zeronchen/md-viewer/releases/latest)
-2. Download `MD-Viewer-Setup-2.0.0.exe` (installer) or `MD-Viewer-Folder-2.0.0.zip` (portable, unzip and run)
+2. Download `MD-Viewer-Setup-3.1.4.exe` (installer) or `MD-Viewer-Folder-3.1.4.zip` (portable, unzip and run)
 3. Follow the installer; SHA256 checksums are in the release notes
 
 After installing, use "Open with" to open `.md`, `.markdown`, `.mdown` and `.mkd` files with MD Viewer.
