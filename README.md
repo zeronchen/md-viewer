@@ -65,7 +65,7 @@ MD Viewer 面向经常阅读接口文档、设计说明、代码分析和 Mermai
 **证书授权（存量兼容）**：早期版本的 `license.key` 继续有效。也可在 帮助 → 许可证 中一键**转为账号授权**（旧证书折算迁入，需联网），之后凭邮箱密码在任何设备登录。
 
 > **首发早鸟 ¥19.9 买断**（原价 ¥69，早鸟为首发限时价）。一次购买，永久使用，不搞订阅。
-> 购买渠道即将公布，请关注 [Releases 公告](https://github.com/zeronchen/md-viewer/releases)；咨询可邮件 zeronchen@qq.com。
+> 购买请邮件 [zeronchen@qq.com](mailto:zeronchen@qq.com)，标题注明「MD Viewer 购买」——收到后当天回复并开通账号。
 
 ## 图表支持
 
