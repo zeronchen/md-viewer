@@ -6,7 +6,7 @@
 
 **专注本地技术文档阅读的 Windows Markdown 阅读器**
 
-长文阅读 · 多标签工作区 · 25+ 类图表 · 账号授权 · 中英双语界面
+长文阅读 · 多标签工作区 · 25+ 类图表 · 四大诗意主题 · 中英双语界面
 
 [![Latest release](https://img.shields.io/github/v/release/zeronchen/md-viewer?style=flat-square&label=version)](https://github.com/zeronchen/md-viewer/releases/latest)
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4?style=flat-square)
@@ -19,7 +19,17 @@
 
 ---
 
-![MD Viewer 主界面](docs/screenshot-main.png)
+**架构图，不该缩成一团。** 几十节点的流程图、十几张表的 ER 模型，双击进全屏画布：矢量缩放、拖拽平移、一键换向，看多清楚都不失真。
+
+![普通编辑器与 MD Viewer 全屏画布对比](docs/hero-compare.png)
+
+**四种主题，名字都起好了。** 素雪初霁 · 森之轻语 · 琥珀暖阳 · 星夜沉幽——切换主题时，图表与代码高亮自动调色。
+
+![四大主题](docs/themes-grid.png)
+
+**按下 F11，世界安静了。** 禅阅模式收起全部干扰：版心居中、正文之外柔和变暗，读文档像读一本书。它还会记住你读到哪一行——关掉重开，回到原地。
+
+![禅阅模式](docs/zen-mode.png)
 
 ## MD Viewer 能做什么
 
@@ -54,7 +64,8 @@ MD Viewer 面向经常阅读接口文档、设计说明、代码分析和 Mermai
 
 **证书授权（存量兼容）**：早期版本的 `license.key` 继续有效。也可在 帮助 → 许可证 中一键**转为账号授权**（旧证书折算迁入，需联网），之后凭邮箱密码在任何设备登录。
 
-> 购买与开通：【待补充：联系方式 / 渠道】
+> **首发早鸟 ¥19.9 买断**（原价 ¥69，早鸟为首发限时价）。一次购买，永久使用，不搞订阅。
+> 购买渠道即将公布，请关注 [Releases 公告](https://github.com/zeronchen/md-viewer/releases)；咨询可邮件 zeronchen@qq.com。
 
 ## 图表支持
 
@@ -72,7 +83,7 @@ Mermaid 在本机完成渲染。其余联网图表受“联网查询”设置控
 ## 安装与更新
 
 1. 打开 [Releases](https://github.com/zeronchen/md-viewer/releases/latest)
-2. 下载 `MD-Viewer-Setup-2.0.0.exe`（安装版）或 `MD-Viewer-Folder-2.0.0.zip`（免安装版，解压即用）
+2. 下载 `MD-Viewer-Setup-3.1.4.exe`（安装版）或 `MD-Viewer-Folder-3.1.4.zip`（免安装版，解压即用）
 3. 按安装向导完成安装；Release 说明附有 SHA256 校验和
 
 安装后可在系统“打开方式”中使用 MD Viewer 打开 `.md`、`.markdown`、`.mdown` 与 `.mkd` 文件。
@@ -97,7 +108,7 @@ Mermaid 在本机完成渲染。其余联网图表受“联网查询”设置控
 | `Ctrl + Shift + F` | 跨文件搜索 | `F3` / `Shift + F3` | 下一个 / 上一个匹配 |
 | `Ctrl + Tab` | 下一个标签 | `Ctrl + Shift + Tab` | 上一个标签 |
 | `Ctrl + W` | 关闭标签 | `Ctrl + B` | 切换侧边栏 |
-| `Ctrl + /` | 源码模式 | `Ctrl + Shift + D` | 切换明暗主题 |
+| `Ctrl + /` | 源码模式 | `Ctrl + Shift + D` | 切换主题（深浅互忆） |
 | `F11` | 禅阅模式 | `Ctrl + Shift + L` | 许可证 / 账号 |
 | `Ctrl + Shift + P` | 导出 PDF | `Ctrl + E` | 导出 HTML |
 | `Ctrl + Shift + U` | 检查更新 | | |
