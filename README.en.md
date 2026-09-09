@@ -65,7 +65,7 @@ MD Viewer is built for Windows users who read API docs, design specs, code analy
 **Certificate license (legacy-compatible)**: existing `license.key` files remain valid. You can also tap **"Convert to account license"** in Help → License to migrate your certificate into an account (online, one click), then just sign in anywhere.
 
 > **Launch early-bird: ¥19.9 one-time purchase** (regular ¥69). Buy once, use forever — no subscription.
-> Purchase channel coming soon — watch the [Releases page](https://github.com/zeronchen/md-viewer/releases); inquiries: zeronchen@qq.com
+> To purchase, email [zeronchen@qq.com](mailto:zeronchen@qq.com) with the subject "MD Viewer purchase" — accounts are provisioned the same day.
 
 ## Diagram support
 
